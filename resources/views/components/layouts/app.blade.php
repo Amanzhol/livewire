@@ -12,10 +12,7 @@
     </head>
     <body>
 
-    <div class="container">
-        <h1 class="text-3xl font-bold underline">
-            Hello world!
-        </h1>
+    <div class="container flex-auto mt-5 ml-10">
 
         {{ $slot }}
     </div>
